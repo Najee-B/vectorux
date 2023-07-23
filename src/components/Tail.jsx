@@ -101,60 +101,67 @@ img{
 }
 
 @media screen and (max-width:600px) {
+    .main-top{
+        flex-direction: column;
+    }
     img{
-        height: 30px;
-        width: 30px;
+        height: 60px;
+        width: 60px;
     }
     .im{
-        height: 30px;
+        height: 60px;
     }
     .left{
         margin-top:80px;
         margin-left: 10px;
     }
     .right{
-        margin: 80px 0px 0px 40px;
+        margin: 80px auto auto;
     }
     .logo{
         margin-left:0px;
     }
     .head{
-        font-size: 15px;
-        transform: translateY(-50px);
+        font-size: 25px;
+        transform: translateY(-80px);
 
     }
     .bottom{
-        margin-left: 0px;
+        margin:auto;
     }
     .top{
         margin-left:0px;
     }
     #txt{
-        height: 20px;
+        height: 35px;
         margin-right:10px;
-        font-size: 7px;
+        font-size: 12px;
     }
     #btn{
-      width  :40px ;
+      width  :60px ;
     }
     .sp1{
-        font-size: 6px;
+        font-size: 12px;
     }
     .d1{
-        font-size: 15px;
-        width: 170px;
+        font-size: 25px;
+        width: 100%;
     }
     .d2{
-        font-size: 8px;
-        width: 130px;
+        font-size: 15px;
+        width: 300px;
+        margin-bottom:20px;
+        
     }
     .d3{
-        font-size: 12px;
+        
+        font-size: 18px;
+        margin:auto;
     }
     .last{
         font-size: 15px;
         width: 130px;
-        margin: 200px 5px 10px auto;
+        margin: 180px 5px 10px auto;
     }
 }
 

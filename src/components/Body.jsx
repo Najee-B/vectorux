@@ -6,7 +6,7 @@ import i3 from '../assets/icon3.png'
 import i4 from '../assets/icon4.png'
 import comp from '../assets/computer.png'
 const Container = styled.div`
-height: 500px;
+
 .boxes{
     display: flex;
     flex-direction: row;
@@ -14,6 +14,7 @@ height: 500px;
     justify-content: space-between;
     transform: translateY(-50px);
     margin:0px 100px;
+    flex-wrap:wrap;
 }
 .box{
     display: flex;
@@ -85,17 +86,19 @@ height: 500px;
 
 }
 @media screen and (max-width:600px) {
-    height: 250px;
+    
     
     .boxes{
         margin: 10px;
-        transform: translateY(-50px);
+        transform: translateY(-10px);
+        
     }
     .box{
-        height: 130px;
-        width: 80px;
-        font-size: 9px;
+        height:130px;
+        width: 120px;
+        font-size: 10px;
         padding: 10px 5px 5px 5px;
+        margin: 20px 10px auto 10px;
     }
     .icon img{
         height: 20px;
@@ -103,7 +106,7 @@ height: 500px;
         margin:20px auto 5px 0px;
     }
     .lines{
-        margin-top:10px;
+        margin-top: 40px;
     }
     .chld1{
         margin-left:40px;
@@ -117,7 +120,7 @@ height: 500px;
     }
     .image{
         width: 170px;
-        transform: translateY(-90px);
+        transform: translateY(-80px);
         margin-right:0px;
     }
     .image img{
@@ -131,10 +134,11 @@ height: 500px;
 `;
 
 function Body() {
+    const [state,setState]=useState(false);
     return (
-        <Container>
+        <Container value={state}>
             <div className="boxes">
-                <div className="box"><div className="icon"><img src={i1} alt="" /></div><div className="head">UI & UX</div><div className="cont">
+                <div className="box" onClick={()=>setState(!state)}><div className="icon"><img src={i1} alt="" /></div><div className="head">UI & UX</div><div className="cont">
                     Designing interfaces that are intuitive, efficient, and enjoyable to use.</div></div>
                 <div className="box"><div className="icon"><img src={i2} alt="" /></div><div className="head">Web & Mobile App</div><div className="cont">
                     Transforming ideas into exceptional web and mobile app experiences.</div></div>

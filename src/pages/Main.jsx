@@ -13,9 +13,9 @@ function Main() {
   return (
     <Container>
         <Head/>
-        <Body/>
+         <Body/>
         <Sub/>
-        <Tail/>
+        <Tail/> 
     </Container>
   )
 }

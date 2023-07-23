@@ -25,10 +25,12 @@ position: relative;
 .icon{
     margin-right: 30px;
     display: none;
+    height: 10px;
+    width: 10px;
 }
 i{
     color: white;
-    font-size:30px;
+    font-size:20px;
     
 }
 
@@ -42,7 +44,7 @@ i{
         display:none;
     }
     .main{
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     

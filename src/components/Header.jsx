@@ -35,15 +35,16 @@ span{
 
       .logo1{
         font-size: 30px;
+        
       }
       .logo2{
         font-size: 14px;
       }
       .logo{
-        margin-left:25px;
+        margin:50px auto auto 25px;
       }
       .img_div{
-        height: 70vh;
+        height: 30vh;
       }
     }
 

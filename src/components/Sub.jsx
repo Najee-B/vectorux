@@ -68,29 +68,33 @@ flex-direction:column;
 }
 @media screen and (max-width:600px) {
     .top{
-        margin-left:40px;
-        font-size: 30px;
+        margin-left:20px;
+        font-size: 50px;
         margin-bottom: 20px;
-        width: 200px;
+        width: 350px;
+        
     }
     .down{
         padding: 0px 20px;
+        flex-direction:column;
+        justify-content: center;
     }
     .d{
-        width: 120px;
+        width: 200px;
         height: 180px;
+        margin: auto;
     }
     .num{
-        height: 50px;
-        width: 50px;
+        height: 70px;
+        width: 70px;
         font-size:30px ;
     }
     .head{
-        font-size: 10px;
+        font-size: 20px;
         margin-top: 9px;
     }
     .cont{
-        font-size: 8px;
+        font-size: 16px;
     }
     
 }
