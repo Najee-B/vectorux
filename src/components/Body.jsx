@@ -111,7 +111,7 @@ const Container = styled.div`
         margin:20px auto 5px 0px;
     }
     .lines{
-        margin-top: 250px;
+        margin-top: 200px;
     }
     .chld1{
         margin-left:40px;
