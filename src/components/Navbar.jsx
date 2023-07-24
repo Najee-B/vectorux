@@ -3,6 +3,7 @@ import styled from 'styled-components'
 const Container=styled.div`
 position: relative;
 
+
 .main{
     margin-top: 40px;
     color:white;
@@ -33,6 +34,11 @@ i{
     font-size:20px;
     
 }
+a{
+    color: white;
+    text-decoration: none;
+    
+}
 
 @media screen and (max-width: 600px){
 
@@ -50,29 +56,33 @@ i{
     
 }
 .sidenav{
-    transform:translateX(${props=>props.value?"0px":"-3000px"});
+    transform:translateY(${props=>props.value?"0px":"-100px"});
     transition:all 1s ease;
     background-color: #212020;
-    height: 7vh;
-    width:100%;
+    height: 3vh;
+    width:20%;
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     color: white;
-    margin-top:50px;
+    
 }
 .sidelinks{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
     margin:10px 10px;
-    font-size: 15px;
+    font-size: 10px;
 
 }
 .link{
-    margin-bottom: 40px;
+    margin:0px 10px 20px 0px;
+    border: solid;
+    border-color:#00fefe ;
+    border-radius: 50px;
+    padding: 5px;
+    
 }
 `;
 
@@ -82,9 +92,9 @@ function Navbar() {
     <Container value={state}>
           <div className="main">
               <div className="links">
-                <div className="link1">HOME</div>
-                <div className="link1">ABOUT</div>
-                <div className="link1">CONTACT</div>
+                <div className="link1"><a href="#home">HOME</a></div>
+                <div className="link1"><a href="#about">ABOUT</a></div>
+                <div className="link1"><a href="#contact">CONTACT</a></div>
               </div>
               <div className="icon" onClick={()=>setState(!state)}>
               <i className='fa-solid fa-bars'></i>
@@ -92,9 +102,9 @@ function Navbar() {
           </div>
           <div className="sidenav">
           <div className="sidelinks">
-                <div className="link">HOME</div>
-                <div className="link">ABOUT</div>
-                <div className="link">CONTACT</div>
+                <div className="link"><a href="#home">HOME</a></div>
+                <div className="link"><a href="#about">ABOUT</a></div>
+                <div className="link"><a href="#contact">CONTACT</a></div>
               </div>
           </div>
         

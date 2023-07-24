@@ -17,6 +17,7 @@ flex-direction:column;
     -webkit-text-fill-color: transparent;
     margin-left:300px;
     margin-bottom: 40px;
+    margin-top:200px
 }
 .down{
     display: flex;
@@ -104,7 +105,7 @@ flex-direction:column;
 function Sub() {
     return (
         <Container>
-            <div className="main">
+            <div className="main" id='about'>
             <div className="top">
                 What we offer?
             </div>

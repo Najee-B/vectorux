@@ -9,6 +9,7 @@ flex-direction: column;
 .main-top{
     display: flex;
     flex-direction: row;
+    transition:all 1s ease;
 }
 img{
     height: 85px;
@@ -170,7 +171,7 @@ img{
 function Tail() {
   return (
     <Container>
-        <div className="main-top">
+        <div className="main-top" id='contact'>
         <div className="left">
             <div className="top">
                 <div className="logo">

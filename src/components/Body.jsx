@@ -90,7 +90,8 @@ const Container = styled.div`
     
     .boxes{
         margin: 10px;
-        transform: translateY(-10px);
+        transform: translateY(140px);
+        padding-top: 70px;
         
     }
     .box{
@@ -106,7 +107,7 @@ const Container = styled.div`
         margin:20px auto 5px 0px;
     }
     .lines{
-        margin-top: 40px;
+        margin-top: 250px;
     }
     .chld1{
         margin-left:40px;
@@ -137,7 +138,7 @@ function Body() {
     const [state,setState]=useState(false);
     return (
         <Container value={state}>
-            <div className="boxes">
+            <div className="boxes" id='home'>
                 <div className="box" onClick={()=>setState(!state)}><div className="icon"><img src={i1} alt="" /></div><div className="head">UI & UX</div><div className="cont">
                     Designing interfaces that are intuitive, efficient, and enjoyable to use.</div></div>
                 <div className="box"><div className="icon"><img src={i2} alt="" /></div><div className="head">Web & Mobile App</div><div className="cont">
