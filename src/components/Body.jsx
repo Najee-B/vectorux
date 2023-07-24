@@ -33,7 +33,8 @@ const Container = styled.div`
     font-family: Montserrat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight:bold;
+    font-weight:bolder;
+    font-size: 18px;
 
 }
 .icon img{
@@ -95,15 +96,15 @@ const Container = styled.div`
         
     }
     .box{
-        height:130px;
-        width: 120px;
-        font-size: 10px;
+        height:180px;
+        width: 150px;
+        font-size: 17px;
         padding: 10px 5px 5px 5px;
         margin: 20px 10px auto 10px;
     }
     .icon img{
-        height: 20px;
-        width: 20px;
+        height: 35px;
+        width: 35px;
         margin:20px auto 5px 0px;
     }
     .lines{

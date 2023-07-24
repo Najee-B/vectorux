@@ -45,10 +45,10 @@ span{
         margin: auto;
       }
       .logo{
-        margin:100px auto auto auto;
+        margin:120px auto auto auto;
       }
       .img_div{
-        height: 100vh;
+        height: 90vh;
         background: url(${resbg}),lightgray 50% / cover no-repeat;
         background-size:100% 100% ;
         background-repeat: no-repeat;

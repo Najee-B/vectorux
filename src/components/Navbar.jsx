@@ -31,7 +31,7 @@ position: relative;
 }
 i{
     color: white;
-    font-size:20px;
+    font-size:40px;
     
 }
 a{
@@ -73,7 +73,7 @@ a{
     justify-content: space-between;
     align-items: center;
     margin:10px 10px;
-    font-size: 10px;
+    font-size: 17px;
 
 }
 .link{
@@ -81,7 +81,7 @@ a{
     border: solid;
     border-color:#00fefe ;
     border-radius: 50px;
-    padding: 5px;
+    padding: 7px;
     
 }
 `;
