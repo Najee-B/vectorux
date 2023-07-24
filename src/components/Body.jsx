@@ -12,15 +12,15 @@ const Container = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    transform: translateY(-50px);
-    margin:0px 100px;
+    /* transform: translateY(-50px); */
+    margin:20px 70px;
     flex-wrap:wrap;
 }
 .box{
     display: flex;
     flex-direction:column;
-    height: 200px;
-    width: 150px;
+    height: 240px;
+    width: 200px;
     background:#3C3C3C;
     border-radius: 0px 20px 0px 20px ;
     padding:60px 10px 10px 10px;
@@ -34,7 +34,7 @@ const Container = styled.div`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight:bolder;
-    font-size: 18px;
+    font-size: 22px;
 
 }
 .icon img{
@@ -49,7 +49,7 @@ const Container = styled.div`
     
 }
 .lines{
-    margin-top:100px;
+    margin-top:230px;
 }
 .line{
     height: 1px;
@@ -91,16 +91,19 @@ const Container = styled.div`
     
     .boxes{
         margin: 10px;
-        transform: translateY(140px);
+        /* transform: translateY(140px); */
         padding-top: 30px;
         
     }
     .box{
-        height:180px;
+        height:200px;
         width: 150px;
         font-size: 17px;
-        padding: 10px 5px 5px 5px;
+        padding: 20px 5px 10px 5px;
         margin: 20px 10px auto 10px;
+    }
+    .head{
+        font-size: 20px;
     }
     .icon img{
         height: 35px;
