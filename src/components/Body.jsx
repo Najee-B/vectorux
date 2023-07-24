@@ -91,7 +91,7 @@ const Container = styled.div`
     .boxes{
         margin: 10px;
         transform: translateY(140px);
-        padding-top: 70px;
+        padding-top: 30px;
         
     }
     .box{

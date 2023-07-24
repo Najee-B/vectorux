@@ -32,33 +32,27 @@ span{
     font-size: 40px;
     font-weight: 200;
   }
-  .pic{
-   margin-bottom: 400px;
-   display: none;
-  }
-  .pic img{
-    height: 500px;
-    width: 370px;
-  }
+  
     @media screen and (max-width:600px) {
 
       .logo1{
-        font-size: 30px;
+        font-size: 40px;
+        margin: auto;
         
       }
       .logo2{
-        font-size: 14px;
+        font-size: 20px;
+        margin: auto;
       }
       .logo{
-        margin:60px auto 20px 110px;
+        margin:100px auto auto auto;
       }
       .img_div{
-        height: 70vh;
-        background:#2b2929 ;
+        height: 100vh;
+        background: url(${resbg}),lightgray 50% / cover no-repeat;
+        background-size:100% 100% ;
+        background-repeat: no-repeat;
         
-      }
-      .pic{
-        display: block;
       }
     }
 
@@ -69,7 +63,6 @@ function Header() {
     <Container>
         <div className="img_div">
         <Nav/>
-        <div className="new">
         <div className="logo">
             <div className="logo1">
             VECTOR<span>UX</span>
@@ -78,10 +71,7 @@ function Header() {
                 we ideate, create <span className='sp2'>&</span> innovate
             </div>
            </div>
-           <div className="pic">
-            <img src={resbg} alt="" />
-           </div>
-        </div>
+           
         </div>
       
     </Container>

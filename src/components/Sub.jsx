@@ -73,6 +73,7 @@ flex-direction:column;
         font-size: 50px;
         margin-bottom: 20px;
         width: 350px;
+        margin-top:20px;
         
     }
     .down{
